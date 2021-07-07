@@ -1,0 +1,44 @@
+Git-Github text file will give me information about what
+Test-Site is, and its shortcut commands, to give me some tips and tricks,
+along with other files that shall be stored in it. 
+
+Folder: test-site 
+Contents: index.html, images, styles, scripts, git-github.txt, README.md
+
+Scenario:
+
+On Github: Add new repository "Create Project Name"
+Clone the repository using the link HTTPS e.g. https://github.com/User/test-site.git > copy Http link URL
+
+On Computer:
+Commandline pwd > Create folder e.g. mkdir Websites (or test-site)
+ -> cd Websites/ -> Clone repository (clone = copying) -> git clone (paste URL) example:
+git clone https://github.com/bitsugar01/test-site.git test-site (note that Websites is the created
+ directory, and in it, has test-site folder. Inside test-site will be tracked by .git)
+-> add README.md file (you can create this in sublime) > add text on file >
+ Create index.html file -> git status (anything red is untracked files)
+Git & Github Command Prompts:
+
+-git clone [http url] [Folder name]
+-git status
+-git add README.md or git add . 
+-git commit -m "Insert Message"
+-git push origin main/master (Origin = which branch; Master = Default code)
+-git status -> cmd+R on github page / -git log -p
+-add more changes to a file 
+-git status (to see what files have changed)
+-git add index.html
+-git diff README.md (will show you changes you've done, untracked modified)
+-git add .
+-git commit -m "Second commit"
+-git log (will show commit ID
+
+You can go over other history of layers:
+-git status 
+-git diff README.md (note that it's untracked, modified: README.md)
+-git checkout README.md
+-git log
+
+Git allows us to go back
+-git checkout (ID)  (shows history)
+-git checkout main/master (shows present)
