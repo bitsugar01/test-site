@@ -1,2 +1,6 @@
 # test-site
-Folder Management and sample website (back to basics since highschool) xD
+
+This git repo link, serves as a quick git practice of pushing projects to github
+Folder Management and sample website 
+Going back to basics, from Highschool
+
